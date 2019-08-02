@@ -1,0 +1,10 @@
+.rangeSlider > input {
+    pointer-events: none;
+    position: absolute;
+}
+
+.rangeSlider > input::-webkit-slider-thumb {
+    pointer-events: all;
+    position: relative;
+    z-index: 1;
+}
